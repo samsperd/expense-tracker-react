@@ -15,8 +15,8 @@ export const StatementTotal = () => {
 
   return (
 
-    <div className="p-6 shadow-lg rounded-lg flex flex-row bg-gray-100 text-gray-700">
-        <div className="text-center space-y-2 flex-1">
+    <div className="p-6 shadow-lg rounded-lg flex flex-row text-gray-700">
+        <div className="text-center space-y-2 flex-1 border-r">
             <div className="space-y-0.5">
                 <p className="text-lg text-black font-semibold">
                     INCOME
@@ -26,7 +26,7 @@ export const StatementTotal = () => {
                 </p>
             </div>
         </div>
-        <div className="text-center space-y-2 flex-1">
+        <div className="text-center space-y-2 flex-1 border-l">
             <div className="space-y-0.5">
                 <p className="text-lg text-black font-semibold">
                     EXPENSE
